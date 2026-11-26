@@ -13,7 +13,7 @@ import type { AppUser, AuthMode, Preferences } from "./types"; // Load the types
 
 // The shape of this part of the state.
 interface UserState {
-  user: AppUser | null; // The signed-in user, or null.
+  user: AppUser | null; // The signed-in user or null.
   status: "loading" | "ready"; // Do we know yet if someone is signed in?
   mode: AuthMode; // Which mode we run in.
   busy: boolean; // True while a sign-in request is running.
