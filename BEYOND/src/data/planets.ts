@@ -4,6 +4,7 @@ export type Planet = {
     radius: number
     orbitRadius: number
     orbitSpeed: number
+    rotationSpeed: number
     color: string
 }
 
@@ -14,6 +15,7 @@ export const planets: Planet[] = [
     radius: 0.18,
     orbitRadius: 2,
     orbitSpeed: 0.8,
+    rotationSpeed: 0.7,
     color: "#b5b2aa",
   },
   {
@@ -22,6 +24,7 @@ export const planets: Planet[] = [
     radius: 0.3,
     orbitRadius: 2.8,
     orbitSpeed: 0.62,
+    rotationSpeed: 0.5,
     color: "#d7b477",
   },
   {
@@ -30,6 +33,7 @@ export const planets: Planet[] = [
     radius: 0.33,
     orbitRadius: 3.6,
     orbitSpeed: 0.5,
+    rotationSpeed: 0.9,
     color: "#4c8bd8",
   },
   {
@@ -38,6 +42,7 @@ export const planets: Planet[] = [
     radius: 0.25,
     orbitRadius: 4.5,
     orbitSpeed: 0.4,
+    rotationSpeed: 0.8,
     color: "#c76d4b",
   },
   {
@@ -46,6 +51,7 @@ export const planets: Planet[] = [
     radius: 0.8,
     orbitRadius: 5.8,
     orbitSpeed: 0.22,
+    rotationSpeed: 1.2,
     color: "#c9a27c",
   },
   {
@@ -54,6 +60,7 @@ export const planets: Planet[] = [
     radius: 0.7,
     orbitRadius: 7,
     orbitSpeed: 0.16,
+    rotationSpeed: 1,
     color: "#d6c18a",
   },
   {
@@ -62,6 +69,7 @@ export const planets: Planet[] = [
     radius: 0.5,
     orbitRadius: 8.2,
     orbitSpeed: 0.12,
+    rotationSpeed: 0.6,
     color: "#7dcbd0",
   },
   {
@@ -70,6 +78,7 @@ export const planets: Planet[] = [
     radius: 0.48,
     orbitRadius: 9.4,
     orbitSpeed: 0.09,
+    rotationSpeed: 0.55,
     color: "#527ad1",
   },
 ]
